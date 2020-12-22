@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+    <Folder Include="Implementation\" />
+    <Folder Include="AutoMapper\" />
+    <Folder Include="ViewModels\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\XayDungUngDungWebVoiASPNetCore.Data.EF\XayDungUngDungWebVoiASPNetCore.Data.EF.csproj" />
+    <ProjectReference Include="..\XayDungUngDungWebVoiASPNetCore.Data\XayDungUngDungWebVoiASPNetCore.Data.csproj" />
+    <ProjectReference Include="..\XayDungUngDungWebVoiASPNetCore.Utilities\XayDungUngDungWebVoiASPNetCore.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>

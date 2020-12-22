@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Configurations\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\XayDungUngDungWebVoiASPNetCore.Data\XayDungUngDungWebVoiASPNetCore.Data.csproj" />
+    <ProjectReference Include="..\XayDungUngDungWebVoiASPNetCore.Infrastructure\XayDungUngDungWebVoiASPNetCore.Infrastructure.csproj" />
+    <ProjectReference Include="..\XayDungUngDungWebVoiASPNetCore.Utilities\XayDungUngDungWebVoiASPNetCore.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>

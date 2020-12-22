@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "XayDungUngDungWebVoiASPNetCore.Infrastructure/1.0.0": {
+        "runtime": {
+          "XayDungUngDungWebVoiASPNetCore.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "XayDungUngDungWebVoiASPNetCore.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

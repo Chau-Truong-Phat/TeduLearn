@@ -13,4 +13,12 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.7" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\XayDungUngDungWebVoiASPNetCore.Application\XayDungUngDungWebVoiASPNetCore.Application.csproj" />
+    <ProjectReference Include="..\XayDungUngDungWebVoiASPNetCore.Data.EF\XayDungUngDungWebVoiASPNetCore.Data.EF.csproj" />
+    <ProjectReference Include="..\XayDungUngDungWebVoiASPNetCore.Data\XayDungUngDungWebVoiASPNetCore.Data.csproj" />
+    <ProjectReference Include="..\XayDungUngDungWebVoiASPNetCore.Infrastructure\XayDungUngDungWebVoiASPNetCore.Infrastructure.csproj" />
+    <ProjectReference Include="..\XayDungUngDungWebVoiASPNetCore.Utilities\XayDungUngDungWebVoiASPNetCore.Utilities.csproj" />
+  </ItemGroup>
+
 </Project>

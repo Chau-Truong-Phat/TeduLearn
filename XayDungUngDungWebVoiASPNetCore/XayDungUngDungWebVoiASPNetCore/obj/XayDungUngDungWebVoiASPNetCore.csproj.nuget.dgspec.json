@@ -1,17 +1,141 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chaut\\Downloads\\GSOFT\\Training\\Xây dựng ứng dụng với ASP .NET CORE\\git\\TeduLearn\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore.csproj": {}
+    "C:\\Users\\chaut\\Downloads\\GSOFT\\Training\\learn\\git\\TeduLearn\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chaut\\Downloads\\GSOFT\\Training\\Xây dựng ứng dụng với ASP .NET CORE\\git\\TeduLearn\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore.csproj": {
+    "C:\\Users\\chaut\\Downloads\\GSOFT\\Training\\learn\\git\\TeduLearn\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore.Application\\XayDungUngDungWebVoiASPNetCore.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chaut\\Downloads\\GSOFT\\Training\\Xây dựng ứng dụng với ASP .NET CORE\\git\\TeduLearn\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore.csproj",
-        "projectName": "XayDungUngDungWebVoiASPNetCore",
-        "projectPath": "C:\\Users\\chaut\\Downloads\\GSOFT\\Training\\Xây dựng ứng dụng với ASP .NET CORE\\git\\TeduLearn\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore.csproj",
+        "projectUniqueName": "C:\\Users\\chaut\\Downloads\\GSOFT\\Training\\learn\\git\\TeduLearn\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore.Application\\XayDungUngDungWebVoiASPNetCore.Application.csproj",
+        "projectName": "XayDungUngDungWebVoiASPNetCore.Application",
+        "projectPath": "C:\\Users\\chaut\\Downloads\\GSOFT\\Training\\learn\\git\\TeduLearn\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore.Application\\XayDungUngDungWebVoiASPNetCore.Application.csproj",
         "packagesPath": "C:\\Users\\chaut\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chaut\\Downloads\\GSOFT\\Training\\Xây dựng ứng dụng với ASP .NET CORE\\git\\TeduLearn\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore\\obj\\",
+        "outputPath": "C:\\Users\\chaut\\Downloads\\GSOFT\\Training\\learn\\git\\TeduLearn\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\chaut\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\chaut\\Downloads\\GSOFT\\Training\\learn\\git\\TeduLearn\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore.Data.EF\\XayDungUngDungWebVoiASPNetCore.Data.EF.csproj": {
+                "projectPath": "C:\\Users\\chaut\\Downloads\\GSOFT\\Training\\learn\\git\\TeduLearn\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore.Data.EF\\XayDungUngDungWebVoiASPNetCore.Data.EF.csproj"
+              },
+              "C:\\Users\\chaut\\Downloads\\GSOFT\\Training\\learn\\git\\TeduLearn\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore.Data\\XayDungUngDungWebVoiASPNetCore.Data.csproj": {
+                "projectPath": "C:\\Users\\chaut\\Downloads\\GSOFT\\Training\\learn\\git\\TeduLearn\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore.Data\\XayDungUngDungWebVoiASPNetCore.Data.csproj"
+              },
+              "C:\\Users\\chaut\\Downloads\\GSOFT\\Training\\learn\\git\\TeduLearn\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore.Utilities\\XayDungUngDungWebVoiASPNetCore.Utilities.csproj": {
+                "projectPath": "C:\\Users\\chaut\\Downloads\\GSOFT\\Training\\learn\\git\\TeduLearn\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore.Utilities\\XayDungUngDungWebVoiASPNetCore.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\chaut\\Downloads\\GSOFT\\Training\\learn\\git\\TeduLearn\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore.Data.EF\\XayDungUngDungWebVoiASPNetCore.Data.EF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\chaut\\Downloads\\GSOFT\\Training\\learn\\git\\TeduLearn\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore.Data.EF\\XayDungUngDungWebVoiASPNetCore.Data.EF.csproj",
+        "projectName": "XayDungUngDungWebVoiASPNetCore.Data.EF",
+        "projectPath": "C:\\Users\\chaut\\Downloads\\GSOFT\\Training\\learn\\git\\TeduLearn\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore.Data.EF\\XayDungUngDungWebVoiASPNetCore.Data.EF.csproj",
+        "packagesPath": "C:\\Users\\chaut\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\chaut\\Downloads\\GSOFT\\Training\\learn\\git\\TeduLearn\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore.Data.EF\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\chaut\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\chaut\\Downloads\\GSOFT\\Training\\learn\\git\\TeduLearn\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore.Data\\XayDungUngDungWebVoiASPNetCore.Data.csproj": {
+                "projectPath": "C:\\Users\\chaut\\Downloads\\GSOFT\\Training\\learn\\git\\TeduLearn\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore.Data\\XayDungUngDungWebVoiASPNetCore.Data.csproj"
+              },
+              "C:\\Users\\chaut\\Downloads\\GSOFT\\Training\\learn\\git\\TeduLearn\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore.Infrastructure\\XayDungUngDungWebVoiASPNetCore.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\chaut\\Downloads\\GSOFT\\Training\\learn\\git\\TeduLearn\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore.Infrastructure\\XayDungUngDungWebVoiASPNetCore.Infrastructure.csproj"
+              },
+              "C:\\Users\\chaut\\Downloads\\GSOFT\\Training\\learn\\git\\TeduLearn\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore.Utilities\\XayDungUngDungWebVoiASPNetCore.Utilities.csproj": {
+                "projectPath": "C:\\Users\\chaut\\Downloads\\GSOFT\\Training\\learn\\git\\TeduLearn\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore.Utilities\\XayDungUngDungWebVoiASPNetCore.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\chaut\\Downloads\\GSOFT\\Training\\learn\\git\\TeduLearn\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore.Data\\XayDungUngDungWebVoiASPNetCore.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\chaut\\Downloads\\GSOFT\\Training\\learn\\git\\TeduLearn\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore.Data\\XayDungUngDungWebVoiASPNetCore.Data.csproj",
+        "projectName": "XayDungUngDungWebVoiASPNetCore.Data",
+        "projectPath": "C:\\Users\\chaut\\Downloads\\GSOFT\\Training\\learn\\git\\TeduLearn\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore.Data\\XayDungUngDungWebVoiASPNetCore.Data.csproj",
+        "packagesPath": "C:\\Users\\chaut\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\chaut\\Downloads\\GSOFT\\Training\\learn\\git\\TeduLearn\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\chaut\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,6 +151,178 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\chaut\\Downloads\\GSOFT\\Training\\learn\\git\\TeduLearn\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore.Infrastructure\\XayDungUngDungWebVoiASPNetCore.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\chaut\\Downloads\\GSOFT\\Training\\learn\\git\\TeduLearn\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore.Infrastructure\\XayDungUngDungWebVoiASPNetCore.Infrastructure.csproj",
+        "projectName": "XayDungUngDungWebVoiASPNetCore.Infrastructure",
+        "projectPath": "C:\\Users\\chaut\\Downloads\\GSOFT\\Training\\learn\\git\\TeduLearn\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore.Infrastructure\\XayDungUngDungWebVoiASPNetCore.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\chaut\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\chaut\\Downloads\\GSOFT\\Training\\learn\\git\\TeduLearn\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\chaut\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\chaut\\Downloads\\GSOFT\\Training\\learn\\git\\TeduLearn\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore.Utilities\\XayDungUngDungWebVoiASPNetCore.Utilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\chaut\\Downloads\\GSOFT\\Training\\learn\\git\\TeduLearn\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore.Utilities\\XayDungUngDungWebVoiASPNetCore.Utilities.csproj",
+        "projectName": "XayDungUngDungWebVoiASPNetCore.Utilities",
+        "projectPath": "C:\\Users\\chaut\\Downloads\\GSOFT\\Training\\learn\\git\\TeduLearn\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore.Utilities\\XayDungUngDungWebVoiASPNetCore.Utilities.csproj",
+        "packagesPath": "C:\\Users\\chaut\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\chaut\\Downloads\\GSOFT\\Training\\learn\\git\\TeduLearn\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore.Utilities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\chaut\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\chaut\\Downloads\\GSOFT\\Training\\learn\\git\\TeduLearn\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\chaut\\Downloads\\GSOFT\\Training\\learn\\git\\TeduLearn\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore.csproj",
+        "projectName": "XayDungUngDungWebVoiASPNetCore",
+        "projectPath": "C:\\Users\\chaut\\Downloads\\GSOFT\\Training\\learn\\git\\TeduLearn\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore.csproj",
+        "packagesPath": "C:\\Users\\chaut\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\chaut\\Downloads\\GSOFT\\Training\\learn\\git\\TeduLearn\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\chaut\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\chaut\\Downloads\\GSOFT\\Training\\learn\\git\\TeduLearn\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore.Application\\XayDungUngDungWebVoiASPNetCore.Application.csproj": {
+                "projectPath": "C:\\Users\\chaut\\Downloads\\GSOFT\\Training\\learn\\git\\TeduLearn\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore.Application\\XayDungUngDungWebVoiASPNetCore.Application.csproj"
+              },
+              "C:\\Users\\chaut\\Downloads\\GSOFT\\Training\\learn\\git\\TeduLearn\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore.Data.EF\\XayDungUngDungWebVoiASPNetCore.Data.EF.csproj": {
+                "projectPath": "C:\\Users\\chaut\\Downloads\\GSOFT\\Training\\learn\\git\\TeduLearn\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore.Data.EF\\XayDungUngDungWebVoiASPNetCore.Data.EF.csproj"
+              },
+              "C:\\Users\\chaut\\Downloads\\GSOFT\\Training\\learn\\git\\TeduLearn\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore.Data\\XayDungUngDungWebVoiASPNetCore.Data.csproj": {
+                "projectPath": "C:\\Users\\chaut\\Downloads\\GSOFT\\Training\\learn\\git\\TeduLearn\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore.Data\\XayDungUngDungWebVoiASPNetCore.Data.csproj"
+              },
+              "C:\\Users\\chaut\\Downloads\\GSOFT\\Training\\learn\\git\\TeduLearn\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore.Infrastructure\\XayDungUngDungWebVoiASPNetCore.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\chaut\\Downloads\\GSOFT\\Training\\learn\\git\\TeduLearn\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore.Infrastructure\\XayDungUngDungWebVoiASPNetCore.Infrastructure.csproj"
+              },
+              "C:\\Users\\chaut\\Downloads\\GSOFT\\Training\\learn\\git\\TeduLearn\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore.Utilities\\XayDungUngDungWebVoiASPNetCore.Utilities.csproj": {
+                "projectPath": "C:\\Users\\chaut\\Downloads\\GSOFT\\Training\\learn\\git\\TeduLearn\\XayDungUngDungWebVoiASPNetCore\\XayDungUngDungWebVoiASPNetCore.Utilities\\XayDungUngDungWebVoiASPNetCore.Utilities.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
